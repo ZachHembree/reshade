@@ -65,6 +65,17 @@ EXPORTS
 	DXGIReportAdapterConfiguration PRIVATE
 
 	; opengl32.dll
+	qfx_glMatrixMode
+	qfx_glLoadMatrixd
+	qfx_glLoadMatrixf
+	qfx_glFrustum
+	qfx_glOrtho
+	qfx_glBlendFunc
+	qfx_glBindTexture
+	qfx_wglMakeCurrent
+	qfx_wglDeleteContext
+	qfx_wglSwapBuffers
+
 	glAccum PRIVATE
 	glAlphaFunc PRIVATE
 	glAreTexturesResident PRIVATE

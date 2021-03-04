@@ -58,6 +58,15 @@
     <Filter Include="resources\shaders">
       <UniqueIdentifier>{9232c43b-559d-4435-b309-c8bbf4e6477b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="QuakeFX">
+      <UniqueIdentifier>{ef79ddd4-0dcf-40be-89e4-02b5150ae246}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="QuakeFX\render">
+      <UniqueIdentifier>{d9e691a7-cc5c-4308-9603-052a62802892}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="QuakeFX\opengl">
+      <UniqueIdentifier>{a1f8a270-ea49-40f2-a76d-9717dfb5ceb3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source\dll_config.cpp">
@@ -282,6 +291,57 @@
     <ClCompile Include="source\windows\ws2_32.cpp">
       <Filter>hooks\windows</Filter>
     </ClCompile>
+    <ClCompile Include="source\QuakeFX\render\qfx_framebuffer_obj.cpp">
+      <Filter>QuakeFX\render</Filter>
+    </ClCompile>
+    <ClCompile Include="source\QuakeFX\render\qfx_program.cpp">
+      <Filter>QuakeFX\render</Filter>
+    </ClCompile>
+    <ClCompile Include="source\QuakeFX\render\qfx_render_buffer.cpp">
+      <Filter>QuakeFX\render</Filter>
+    </ClCompile>
+    <ClCompile Include="source\QuakeFX\render\qfx_renderer.cpp">
+      <Filter>QuakeFX\render</Filter>
+    </ClCompile>
+    <ClCompile Include="source\QuakeFX\render\qfx_shader.cpp">
+      <Filter>QuakeFX\render</Filter>
+    </ClCompile>
+    <ClCompile Include="source\QuakeFX\render\qfx_texture.cpp">
+      <Filter>QuakeFX\render</Filter>
+    </ClCompile>
+    <ClCompile Include="source\QuakeFX\render\qfx_texture2D.cpp">
+      <Filter>QuakeFX\render</Filter>
+    </ClCompile>
+    <ClCompile Include="source\QuakeFX\render\qfx_vertex_array_obj.cpp">
+      <Filter>QuakeFX\render</Filter>
+    </ClCompile>
+    <ClCompile Include="source\QuakeFX\render\qfx_vertex_layout.cpp">
+      <Filter>QuakeFX\render</Filter>
+    </ClCompile>
+    <ClCompile Include="source\QuakeFX\render\qfx_buffer.cpp">
+      <Filter>QuakeFX\render</Filter>
+    </ClCompile>
+    <ClCompile Include="source\QuakeFX\render\qfx_capture_buffer.cpp">
+      <Filter>QuakeFX\render</Filter>
+    </ClCompile>
+    <ClCompile Include="source\QuakeFX\qfx_hook_manager.cpp">
+      <Filter>QuakeFX</Filter>
+    </ClCompile>
+    <ClCompile Include="source\QuakeFX\qfx_main.cpp">
+      <Filter>QuakeFX</Filter>
+    </ClCompile>
+    <ClCompile Include="source\QuakeFX\qfx_runtime.cpp">
+      <Filter>QuakeFX</Filter>
+    </ClCompile>
+    <ClCompile Include="source\QuakeFX\qfx_config.cpp">
+      <Filter>QuakeFX</Filter>
+    </ClCompile>
+    <ClCompile Include="source\QuakeFX\opengl\qfx_opengl.cpp">
+      <Filter>QuakeFX\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="source\QuakeFX\opengl\qfx_opengl_hooks.cpp">
+      <Filter>QuakeFX\opengl</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="source\dll_config.hpp">
@@ -493,6 +553,60 @@
     </ClInclude>
     <ClInclude Include="res\version.h">
       <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="source\QuakeFX\render\qfx_default_shader.hpp">
+      <Filter>QuakeFX\render</Filter>
+    </ClInclude>
+    <ClInclude Include="source\QuakeFX\render\qfx_framebuffer_obj.hpp">
+      <Filter>QuakeFX\render</Filter>
+    </ClInclude>
+    <ClInclude Include="source\QuakeFX\render\qfx_image_formats.hpp">
+      <Filter>QuakeFX\render</Filter>
+    </ClInclude>
+    <ClInclude Include="source\QuakeFX\render\qfx_program.hpp">
+      <Filter>QuakeFX\render</Filter>
+    </ClInclude>
+    <ClInclude Include="source\QuakeFX\render\qfx_render_buffer.hpp">
+      <Filter>QuakeFX\render</Filter>
+    </ClInclude>
+    <ClInclude Include="source\QuakeFX\render\qfx_renderer.hpp">
+      <Filter>QuakeFX\render</Filter>
+    </ClInclude>
+    <ClInclude Include="source\QuakeFX\render\qfx_shader.hpp">
+      <Filter>QuakeFX\render</Filter>
+    </ClInclude>
+    <ClInclude Include="source\QuakeFX\render\qfx_texture.hpp">
+      <Filter>QuakeFX\render</Filter>
+    </ClInclude>
+    <ClInclude Include="source\QuakeFX\render\qfx_texture2D.hpp">
+      <Filter>QuakeFX\render</Filter>
+    </ClInclude>
+    <ClInclude Include="source\QuakeFX\render\qfx_vertex_array_obj.hpp">
+      <Filter>QuakeFX\render</Filter>
+    </ClInclude>
+    <ClInclude Include="source\QuakeFX\render\qfx_vertex_layout.hpp">
+      <Filter>QuakeFX\render</Filter>
+    </ClInclude>
+    <ClInclude Include="source\QuakeFX\render\qfx_buffer.hpp">
+      <Filter>QuakeFX\render</Filter>
+    </ClInclude>
+    <ClInclude Include="source\QuakeFX\render\qfx_capture_buffer.hpp">
+      <Filter>QuakeFX\render</Filter>
+    </ClInclude>
+    <ClInclude Include="source\QuakeFX\qfx_hook_manager.hpp">
+      <Filter>QuakeFX</Filter>
+    </ClInclude>
+    <ClInclude Include="source\QuakeFX\qfx_main.hpp">
+      <Filter>QuakeFX</Filter>
+    </ClInclude>
+    <ClInclude Include="source\QuakeFX\qfx_runtime.hpp">
+      <Filter>QuakeFX</Filter>
+    </ClInclude>
+    <ClInclude Include="source\QuakeFX\qfx_dynamic_collections.hpp">
+      <Filter>QuakeFX</Filter>
+    </ClInclude>
+    <ClInclude Include="source\QuakeFX\opengl\qfx_opengl.hpp">
+      <Filter>QuakeFX\opengl</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

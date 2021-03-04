@@ -25,3 +25,6 @@
 [submodule "openvr"]
 	path = deps/openvr
 	url = https://github.com/ValveSoftware/openvr.git
+[submodule "source/QuakeFX/deps/glm"]
+	path = source/QuakeFX/deps/glm
+	url = git@github.com:g-truc/glm.git
